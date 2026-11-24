@@ -141,6 +141,7 @@ a{
     flex: 1 1 340px;
     display: flex;
     flex-direction: column;
+    
 }
 .card .foto{
     height: 170px;
@@ -176,5 +177,15 @@ a{
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+}
 
+.passo{
+    display: flex;
+    gap: 24px;
+}
+
+.passo {
+    flex: 1;
+    border-top: 6px solid var(--tinta);
+    padding-top:20px;
 }
